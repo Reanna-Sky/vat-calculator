@@ -7,7 +7,7 @@
     transform: rotate(0deg);
   }
   to {
-    transfrom: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
