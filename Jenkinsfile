@@ -17,7 +17,8 @@ pipeline {
             withSonarQubeEnv('sonar-qube-1') {        
               sh "${scannerHome}/bin/sonar-scanner"
         }
-        // This means the pipeline wil abort after 10 minutes if no response is received 
+        // This means the pipeline wil abort after 10 minutes if no response is received   
+        
         timeout(time: 10, unit: 'MINUTES'){
           waitForQualityGate abortPipeline: true
         }
