@@ -1,3 +1,16 @@
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transfrom: rotate(360deg);
+  }
+}
+
 .field{
   width: 300px;
   padding-bottom: 20px;
